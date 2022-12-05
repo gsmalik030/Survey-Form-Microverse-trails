@@ -1,0 +1,101 @@
+:root{
+    --color-white: #f3f3f3;
+    --color-blue: #23395d;
+    --color-greeen:#37af65;
+}
+
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    height: 100%;
+    width: 100%;
+    background: var(--color-blue);
+    background-image:linear-gradient(115deg, rgba(58, 58, 158, 0.8),
+    rgba(136, 136, 206, 0.8)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+ form {
+    background: var(--color-blue);
+    opacity: .8;
+ }
+
+
+.container{
+    max-width: 768px;
+} .age{
+    margin-left: .27rem;
+    font-size: .88rem;
+    color: #e4e4e4;
+}
+
+
+
+
+.center{
+    text-align: center;
+}
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.clue {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #e4e4e4;
+}
+
+div {
+    display: block;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+input,
+button,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: green;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}
+form {
+    background: var(--color-blue);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+}
